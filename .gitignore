@@ -1,4 +1,6 @@
+output
 target
 output
 *.o
 .stack-work
+

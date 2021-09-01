@@ -215,6 +215,8 @@ void Klotski::bfs2(std::set<Situation> &seen, std::queue<Situation> &q, std::vec
                 q.push(newSit);
                 seen.insert(newSit);
                 result.push_back(std::make_pair(newSit, name));
+            }else {
+                newSit.destroy();
             }
         }
     };
