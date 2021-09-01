@@ -4,8 +4,7 @@
 #include <queue>
 #include <map>
 #include <optional>
-#define LEN(array) (sizeof(array) / sizeof(array[0]))
-
+#include <cassert>
 struct Move {
     std::string name;
     std::vector<std::string> start;
