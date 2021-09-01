@@ -33,6 +33,10 @@ struct Situation {
         }
         return Situation(sit, m_size);
     }
+    
+    void destroy() {
+        delete m_sit;
+    }
 };
 
 class Klotski  {
