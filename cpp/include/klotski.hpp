@@ -35,7 +35,7 @@ struct Situation {
     }
     
     void destroy() {
-        delete m_sit;
+        delete [] m_sit;
     }
 };
 
