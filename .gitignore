@@ -1,4 +1,3 @@
-output
-input*
 target
+*.o
 .stack-work

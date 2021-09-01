@@ -1,0 +1,7 @@
+4 4
+A B C D
+. E E D
+. F F D
+. G H I
+D
+1 1
