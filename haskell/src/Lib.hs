@@ -8,11 +8,12 @@ import qualified Data.Set as S
 import qualified Data.Array as A
 import qualified Data.List as L
 import Data.Maybe
-import Data.Bifunctor (second)
+import Data.Bifunctor (second, first)
 import Control.Monad
 import Debug.Trace (trace)
 import qualified Control.Monad.State.Strict as SS
 import Data.List.Split (chunksOf)
+import Data.Ord (comparing)
 
 type BlockName = String
 data Direction = L| R| U | D deriving Show
@@ -24,13 +25,14 @@ data Block = Block {
     } deriving Show
 type Coordinate = (Int, Int)
 type Situation = A.Array Int String
+type EncodedSituation = A.Array Int Int
+data Shape = Shape {box :: (Int, Int), pos :: [Int]} deriving (Eq, Show, Ord)
 
--- sitToString :: Int -> Situation -> String
--- sitToString width sit = let ls = A.elems sit
-                            -- ls1 = chunksOf width ls
-                            -- ls2 = unwords <$> ls1
-                         -- in L.intercalate "\n" ls2 ++ "\n"
-
+sitToString :: Int -> Situation -> String
+sitToString width sit = let ls = A.elems sit
+                            ls1 = chunksOf width ls
+                            ls2 = unwords <$> ls1
+                         in L.intercalate "\n" ls2 ++ "\n"
 
 trackResult :: M.Map Situation (BlockName, Situation) -> Situation -> [(BlockName, Situation, Situation)]
 trackResult m sit = if M.member sit m
@@ -56,29 +58,32 @@ inBoard :: Board -> Int -> Int -> Bool
 inBoard (nr, nc) x y = x >= 0 && x < nr && y >= 0 && y < nc
 
 
-klotski :: Board -> [String] -> Situation -> (BlockName, [Int]) -> Maybe [Move]
-klotski board names sit (name, dest) = let (m, s) =  bfs (S.singleton sit) [sit] (M.empty, Nothing)
-                                        in case s of
-                                             Nothing -> Nothing
-                                             Just s' -> Just $ trackResult m s'
+klotski :: Board -> M.Map String Int -> [String] -> Situation -> (BlockName, [Int]) -> Maybe [Move]
+klotski board sm names sit (name, dest) = if success sit
+                                             then Just []
+                                             else let (m, s) = bfs (S.singleton (encodeSituation sm sit)) [(sit, 1)] (M.empty, Nothing)
+                                                   in case s of
+                                                        Nothing -> Nothing
+                                                        Just s' -> Just $ trackResult m s'
     where bfs _ [] out = out
-          bfs seen (e:es) out@(m,_) = let validMoves = findValidMoves board names e seen
-                                          endS = listToMaybe $ filter success $ snd <$> validMoves
-                                          newM = L.foldl' (f e) m validMoves
-                                          queue =  snd <$> validMoves
-                                          seen' =  L.foldl' (flip S.insert) seen queue
-                                          queue' = es ++ queue
-                                       in if isJust endS
-                                             then (newM, endS)
-                                             else bfs seen' queue' (newM, Nothing)
+          bfs seen ((e, d):es) out@(m,_) = let validMoves = findValidMoves board sm names e seen
+                                               endS = listToMaybe $ filter success $ snd <$> validMoves
+                                               -- endS = trace ("father: \n" ++ "level: " ++ show d ++ " \n" ++ (sitToString (snd board) e) ++ "\nchild: \n" ++ "level: " ++ show (d+1) ++ "\n" ++ L.intercalate "\n" (((sitToString (snd board)) . snd) <$> validMoves))  listToMaybe $ filter success $ snd <$> validMoves
+                                               newM = L.foldl' (f e) m validMoves
+                                               queue =  snd <$> validMoves
+                                               seen' =  L.foldl' (\x y -> S.insert (encodeSituation sm y) x) seen queue
+                                               queue' = es ++ ((, d+1) <$> queue)
+                                            in if isJust endS
+                                                  then (newM, endS)
+                                                  else bfs seen' queue' (newM, Nothing)
           success e = and ((\idx -> e A.! idx == name) <$> dest)
           f e m move@(bn,s) = case M.lookup e m of
                                        Nothing -> M.insert s (bn, e) m
                                        Just _ -> M.insert s (bn, e) m
 
-findValidMoves :: Board -> [String] -> Situation -> S.Set Situation -> [(BlockName, Situation)]
-findValidMoves board names sit seen = let movements = concatMap (\name -> (name,) <$> moveOneStep board sit seen name) names
-                                       in filter (\(_, s) -> not (S.member s seen)) movements
+findValidMoves :: Board -> M.Map String Int -> [String] -> Situation -> S.Set EncodedSituation -> [(BlockName, Situation)]
+findValidMoves board sm names sit seen = let movements = concatMap (\name -> (name,) <$> moveOneStep board sm sit (S.singleton (encodeSituation sm sit)) name) names
+                                       in filter (\(_, s) -> not (S.member (encodeSituation sm s) seen)) movements
 
                           
 updateSituation :: Board -> Situation -> BlockName -> [Coordinate] -> [Coordinate] -> Situation
@@ -88,19 +93,19 @@ updateSituation board oldSit name oldCos newCos = let newCos' = (\(x,y) -> (coor
                                                    in A.accum (\_ x -> x) oldSit combinedCos
     
     
-moveOneStep :: Board -> Situation -> S.Set Situation -> BlockName -> [Situation]
-moveOneStep board sit initSeen name = bfs initSeen [sit]  []
+moveOneStep :: Board -> M.Map String Int -> Situation -> S.Set EncodedSituation -> BlockName -> [Situation]
+moveOneStep board sm sit initSeen name = bfs initSeen [sit]  []
     where bfs _ [] out = out
           bfs seen (s:ss) out = let pos = ((idxToCoor board) . fst) <$> filter (\(i,e) -> e == name) (A.assocs s)
                                     validMoves = filter (check seen) $ (\d -> let newCells = moveByDirection pos d
                                                                                in (newCells, updateSituation board s name pos newCells)) <$> [L,R,U,D]
                                     queue =  (\(_,x) -> x) <$> validMoves
-                                    seen' =  L.foldl' (flip S.insert) seen queue
+                                    seen' =  L.foldl' (\x y -> S.insert (encodeSituation sm y) x) seen queue
                                     newOut = out ++ queue
                                     queue' = ss ++ queue
                                  in bfs seen' queue' newOut
           check seen (cos, s)= all (\(x,y) ->  let idx = coorToIdx board x y
-                                                in inBoard board x y && (let v = sit A.! idx in v == "." || v == name)) cos && (not $ S.member s seen)
+                                                in inBoard board x y && (let v = sit A.! idx in v == "." || v == name)) cos && (not $ S.member (encodeSituation sm s) seen)
 
 
 makeBlockMap :: [(Int, Int, String)] -> M.Map BlockName Block
@@ -150,6 +155,40 @@ getNames :: Situation -> [String]
 getNames sit = let pos = snd <$> filter (\(i,e) -> e /= ".") (A.assocs sit)
                 in L.nub pos
 
+makeShape :: [(Int,Int)] -> Shape
+makeShape coords = let xs = fst <$> coords
+                       ys = snd <$> coords
+                       minx = minimum xs
+                       maxx = maximum xs
+                       miny = minimum ys
+                       maxy = maximum ys
+                       nr = maxx - minx + 1
+                       nc = maxy - miny + 1
+                       pos = (\(x, y) -> (x - minx) * nc + (y - miny)) <$> coords
+                    in Shape {box = (nr, nc), pos = L.sort pos}
+
+encodeSituation :: M.Map String Int -> Situation -> EncodedSituation 
+encodeSituation sm sit = (\name -> fromJust $ M.lookup name sm) <$> sit
+
+makeShapeMap :: Board -> Situation -> BlockName -> M.Map String Int
+                                   -- [[(idx, name)]]
+makeShapeMap board sit name = let s1 =  L.groupBy (\a b -> snd a == snd b) $ L.sortBy (comparing snd) $ filter (\(i,e) -> e /= name && e /= ".") (A.assocs sit) 
+                                  f1 = first (idxToCoor board)
+                                -- [[((x,y), name)]]
+                                  s2 = (\x -> f1 <$> x) <$> s1
+                                        -- [([(x,y)], name)]
+                                  s3 = (\x -> second head (unzip x)) <$> s2
+                                        -- [(Shape, name)]
+                                  s4 = (\x -> first makeShape x) <$> s3
+                                        -- [[(Shape, name)]]
+                                  s5 = L.groupBy (\a b -> fst a == fst b) $ L.sortBy (comparing fst) s4
+                                        -- [(1, [(Shape, name)])..]
+                                  s6 = zip [1..] s5
+                                        -- [(1,[name])..]
+                                  s7 = second (snd <$>) <$> s6
+                                        -- [(name, 1)..]
+                                  s8 = concat $ (\(n, ns) -> zip ns (cycle [n])) <$> s7
+                               in M.fromList $ (name, 40):(".", 0):s8
 
 readAndSolve = do
     [nr, nc] <- (fmap (read::String->Int)) . words <$> getLine
@@ -163,7 +202,9 @@ readAndSolve = do
         name = c
         dest = getDest (nr, nc) name sit (i,j)
         names = getNames sit
-        result = fromJust $ klotski (nr, nc) names sit (name, dest)
+        sm = makeShapeMap (nr, nc) sit name
+    -- print sm
+    -- print $ encodeSituation sm sit
+        result = fromJust $ klotski (nr, nc) sm names sit (name, dest)
+    print $ length result
     sequence $ putStrLn <$> resultToString (nr, nc) (reverse result)
-    
-

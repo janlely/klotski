@@ -46,8 +46,6 @@ class Klotski  {
         int size;
         std::map<std::string, char> names;
         std::map<char, std::string> names2;
-        // int destX;
-        // int destY;
         char target;
         Situation start;
         int idx;
@@ -59,12 +57,10 @@ class Klotski  {
         Klotski(int nr, int nc);
         void klotski();
         void setTarget(std::string name);
-        // void setDestX(int x);
-        // void setDestY(int y);
         void setDestPost(int x, int y);
         void updateSituation(std::string name);
         bool isSuccess(const Situation &sit);
-        std::optional<Situation> bfs1(std::queue<Situation> &, std::set<Situation> &, std::map<Situation, std::pair<Situation, char>> &);
+        std::optional<Situation> bfs1(std::queue<std::pair<Situation,int>> &, std::set<Situation> &, std::map<Situation, std::pair<Situation, char>> &);
         void bfs2(std::set<Situation> &seen, std::queue<Situation> &q, std::vector<std::pair<Situation, char>> &result, char name);
         std::vector<std::pair<Situation, char>> findValidMoves(const Situation &sit, std::set<Situation> &seen);
         void searchValidMovement(std::set<Situation> &seen, const Situation &sit, char name, std::vector<std::pair<Situation, char>> &result);

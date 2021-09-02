@@ -1,0 +1,11957 @@
+father: 
+level: 1 
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 2
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E A D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . A H . .
+I I I H . .
+
+A B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+A B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+A B B C C .
+. E E D C .
+. E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+A B B C C .
+. E E D C .
+I E . D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+A E E D . C
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+A E E D C .
+. E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E D C F
+. E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+A E E D C .
+. E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+A E E D C .
+I E . D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+A E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+A E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+A E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+A E . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . F
+A . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+A . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+A . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+A D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D F .
+A . . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+A . . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A . . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A . . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+A H . . F F
+I H . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+A . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E A . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. A . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. A D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+. A D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. A . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. A . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+. E . D . F
+I A . . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. A H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. . A D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . A F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . A . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . A . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . A . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+. E . D . F
+I . A . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . A H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I A D H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . . . . F
+I A . H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . . . . .
+I A . H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . H F F
+I A . H . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . H . F F
+I A H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I A . . . .
+I I I . . .
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . A . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . . A . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . . A . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+. E . D . F
+I . . A F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+I E . D . F
+I I I A F F
+. . . H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+. E A D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+. E A D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E A D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . A D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E A D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E A D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E A D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E A D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E A D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E A D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+. E A D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+I E A D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E A D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E A D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E A D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E A D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E A D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+father: 
+level: 2 
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . A H . .
+I I I H . .
+
+child: 
+level: 3
+B B . C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . A H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I . A H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I . A H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I . A H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I . A H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . F
+. E E . F F
+I E A H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I . A H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I . A H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I . A H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . A H . .
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . . . . F
+I . A H F F
+I I I H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . . . . .
+I . A H . F
+I I I H F F
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . A . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . H F F
+I . A H . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . A . . H
+I I I . . H
+
+father: 
+level: 2 
+A B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A . B B C C
+. E E D . C
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+A B B . C C
+E E . D . C
+E . . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+A B B . C C
+. . . D . C
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+A B B . C C
+. . . D . C
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+A B B . C C
+. . . D . C
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A B B . C C
+. . . D . C
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A B B . C C
+. E E . D C
+. E . . D F
+. . . . F F
+I . . H . .
+I I I H . .
+
+A B B D C C
+. E E D . C
+. E . . . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+A B B . C C
+. E E . . C
+. E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+A B B . C C
+. E E . . C
+. E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+A B B . C C
+. E E . . C
+. E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+A B B . C C
+. E E . . C
+. E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+A B B . C C
+. E E D . C
+. E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+A B B . C C
+. E E D . C
+. E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+A B B . C C
+. E E D . C
+. E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+A B B . C C
+. E E D . C
+. E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+A B B . C C
+. E E D . C
+I E . D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+A B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+A B B . C C
+. E E D . C
+. E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+A B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+A B B . C C
+. E E D . C
+. E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+A B B . C C
+. E E D . C
+. E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+A B B . C C
+. E E D . C
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A B B C C .
+E E D . C .
+E . D . . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+E E . . C .
+E . . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+E E . . C .
+E . D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+E E . . C .
+E D . . . F
+. D . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+E E . . C .
+E . . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+A B B C C .
+E E . . C .
+E . . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+A B B C C .
+E E . D C .
+E . . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+A B B C C .
+E E . D C F
+E . . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+A B B C C .
+E E . D C .
+E . . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+A B B C C .
+E E . D C .
+E . . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+A B B C C .
+E E . D C .
+E . . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+A B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+A B B C C .
+E E . D C .
+E . . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+A B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+A B B C C .
+E E . D C .
+E . . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+A B B C C .
+E E . D C .
+E . . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+A B B C C .
+E E . D C .
+E . H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+A B B C C .
+E E . D C .
+E H . D . F
+. H . . F F
+I . . . . .
+I I I . . .
+
+A B B C C .
+E E H D C .
+E . H D . F
+. . . . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A . . C C .
+. B B D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+A . . C C .
+B B . D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+. E E D . F
+. E . D F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. E E D F .
+. E . F F .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C F
+. E E D F F
+. E . . . .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. E E D . .
+. E . . . F
+I . . H F F
+I I I H . .
+
+A B B C C .
+. . . D C .
+. E E D . .
+. E . . . .
+I . . H . F
+I I I H F F
+
+A B B C C .
+. . . D C .
+. E E D . F
+I E . . F F
+I I I H . .
+. . . H . .
+
+A B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I . . . H .
+I I I . H .
+
+A B B C C .
+. . . D C .
+. E E D . F
+. E . H F F
+I . . H . .
+I I I . . .
+
+A B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I . . . . H
+I I I . . H
+
+A B B C C .
+. . . D C .
+. E E D . F
+. E H . F F
+I . H . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A . . C C .
+. B B D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+A . . C C .
+B B . D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . D . C .
+E E D . . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+E E . D . F
+E . . D F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+E E D . . F
+E . D . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+E E . . . F
+E . D . F F
+I . D H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+E E . . . F
+E D . . F F
+I D . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+E E . D F .
+E . . F F .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C F
+E E . D F F
+E . . . . .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+E E . D . .
+E . . . . F
+I . . H F F
+I I I H . .
+
+A B B C C .
+. . . D C .
+E E . D . .
+E . . . . .
+I . . H . F
+I I I H F F
+
+A B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I . . . H .
+I I I . H .
+
+A B B C C .
+. . . D C .
+E E . D . F
+E . . H F F
+I . . H . .
+I I I . . .
+
+A B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I . . . . H
+I I I . . H
+
+A B B C C .
+. . . D C .
+E E . D . F
+E . H . F F
+I . H . . .
+I I I . . .
+
+A B B C C .
+. . . D C .
+E E . D . F
+E H . . F F
+I H . . . .
+I I I . . .
+
+A B B C C .
+. . . D C .
+E E H D . F
+E . H . F F
+I . . . . .
+I I I . . .
+
+A B B C C .
+. . H D C .
+E E H D . F
+E . . . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. . . D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+child: 
+level: 3
+A . . C C .
+. B B D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A . . C C .
+B B . D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A . . C C .
+. . . D C .
+. B B D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A . . C C .
+. . . D C .
+B B . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A B B C C .
+. . D . C .
+. . D . . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+. . . D . F
+. E E D F F
+I E . H . .
+I I I H . .
+
+A B B C C .
+. D . . C .
+. D . . . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A B B C C .
+D . . . C .
+D . . . . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+D . . . . F
+D E E . F F
+I E . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. . . D F .
+. E E F F .
+I E . H . .
+I I I H . .
+
+A B B C C .
+. . . D C F
+. . . D F F
+. E E . . .
+I E . H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. . . D . .
+. E E . . F
+I E . H F F
+I I I H . .
+
+A B B C C .
+. . . D C .
+. . . D . .
+. E E . . .
+I E . H . F
+I I I H F F
+
+A B B C C .
+. . . D C .
+. . . D . F
+. E E . F F
+I E . . H .
+I I I . H .
+
+A B B C C .
+. . . D C .
+. . . D . F
+. E E H F F
+I E . H . .
+I I I . . .
+
+A B B C C .
+. . . D C .
+. . . D . F
+. E E . F F
+I E . . . H
+I I I . . H
+
+father: 
+level: 2 
+A B B C C .
+. . . D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+child: 
+level: 3
+A . . C C .
+. B B D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A . . C C .
+B B . D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A . . C C .
+. . . D C .
+. B B D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A . . C C .
+. . . D C .
+B B . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A . . C C .
+. . . D C .
+. . . D . F
+B B E E F F
+I . E H . .
+I I I H . .
+
+A B B C C .
+. . D . C .
+. . D . . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A B B C C .
+. D . . C .
+. D . . . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A B B C C .
+D . . . C .
+D . . . . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+. D . . . F
+. D E E F F
+I . E H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+D . . . . F
+D . E E F F
+I . E H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+. . . . . F
+. D E E F F
+I D E H . .
+I I I H . .
+
+A B B C C .
+. . . D C F
+. . . D F F
+. . E E . .
+I . E H . .
+I I I H . .
+
+A B B C C .
+. . . D C .
+. . . D . .
+. . E E . F
+I . E H F F
+I I I H . .
+
+A B B C C .
+. . . D C .
+. . . D . .
+. . E E . .
+I . E H . F
+I I I H F F
+
+A B B C C .
+. . . D C .
+. . . D . F
+. . E E F F
+I . E . H .
+I I I . H .
+
+A B B C C .
+. . . D C .
+. . . D . F
+. . E E F F
+I . E . . H
+I I I . . H
+
+father: 
+level: 2 
+A B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A B B . . .
+. E E C C .
+. E . D C F
+. . . D F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. . E E C .
+. . E D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E . C F
+. E . D F F
+. . . D . .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . D . .
+. . . D . F
+I . . H F F
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . D . .
+. . . D . .
+I . . H . F
+I I I H F F
+
+A B B C C .
+. E E . C .
+. E . D . F
+I . . D F F
+I I I H . .
+. . . H . .
+
+A B B C C .
+. E E . C .
+I E . D . F
+I I I D F F
+. . . H . .
+. . . H . .
+
+A B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I . . . H .
+I I I . H .
+
+A B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 2 
+A B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A B B . . .
+. E E C C .
+. E D . C F
+. . D . F F
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E D . F .
+. . D F F .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E . C F
+. E D . F F
+. . D . . .
+I . . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E D . . .
+. . D . . F
+I . . H F F
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E D . . .
+. . D . . .
+I . . H . F
+I I I H F F
+
+A B B C C .
+. E E . C .
+. E D . . F
+I . D . F F
+I I I H . .
+. . . H . .
+
+A B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I . . . H .
+I I I . H .
+
+A B B C C .
+. E E . C .
+. E D . . F
+. . D H F F
+I . . H . .
+I I I . . .
+
+A B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I . . . . H
+I I I . . H
+
+A B B C C .
+. E E . C .
+. E D H . F
+. . D H F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+child: 
+level: 3
+A B B . . .
+. E E C C .
+. E . . C F
+. . D . F F
+I . D H . .
+I I I H . .
+
+A B B C C .
+. . E E C .
+. . E . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+. E E . . F
+. E D . F F
+I . D H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . F .
+. . D F F .
+I . D H . .
+I I I H . .
+
+A B B C C .
+. E E . C F
+. E . . F F
+. . D . . .
+I . D H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . . .
+. . D . . F
+I . D H F F
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . . .
+. . D . . .
+I . D H . F
+I I I H F F
+
+A B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I . D . H .
+I I I . H .
+
+A B B C C .
+. E E . C .
+. E . . . F
+. . D H F F
+I . D H . .
+I I I . . .
+
+A B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I . D . . H
+I I I . . H
+
+A B B C C .
+. E E . C .
+. E . H . F
+. . D H F F
+I . D . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. E E . C .
+. E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+child: 
+level: 3
+A B B . . .
+. E E C C .
+. E . . C F
+. D . . F F
+I D . H . .
+I I I H . .
+
+A B B C C .
+. . E E C .
+. . E . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+. . E E . F
+. D E . F F
+I D . H . .
+I I I H . .
+
+A B B C C .
+. . . . C .
+. . . E E F
+. D . E F F
+I D . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . F .
+. D . F F .
+I D . H . .
+I I I H . .
+
+A B B C C .
+. E E . C F
+. E . . F F
+. D . . . .
+I D . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . . .
+. D . . . F
+I D . H F F
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . F . .
+. D F F . .
+I D . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . . .
+. D . . . .
+I D . H . F
+I I I H F F
+
+A B B C C .
+. E E F C .
+. E F F . .
+. D . . . .
+I D . H . .
+I I I H . .
+
+A B B C C .
+. E E . C .
+. E . . . F
+. D . . F F
+I D . . H .
+I I I . H .
+
+A B B C C .
+. E E . C .
+. E . . . F
+. D . H F F
+I D . H . .
+I I I . . .
+
+A B B C C .
+. E E . C .
+. E . . . F
+. D . . F F
+I D . . . H
+I I I . . H
+
+A B B C C .
+. E E . C .
+. E . . . F
+. D H . F F
+I D H . . .
+I I I . . .
+
+A B B C C .
+. E E . C .
+. E . H . F
+. D . H F F
+I D . . . .
+I I I . . .
+
+A B B C C .
+. E E . C .
+. E H . . F
+. D H . F F
+I D . . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D F .
+I . . F F .
+I I I H . .
+. . . H . .
+
+A B B C C .
+. E E D C .
+I E . D F .
+I I I F F .
+. . . H . .
+. . . H . .
+
+A B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I . . . H .
+I I I . H .
+
+A B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I . . . . H
+I I I . . H
+
+A B B C C .
+. E E D C .
+. E . D F .
+. . . F F H
+I . . . . H
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D F H
+. . . F F H
+I . . . . .
+I I I . . .
+
+A B B C C .
+. E E D C H
+. E . D F H
+. . . F F .
+I . . . . .
+I I I . . .
+
+A B B C C H
+. E E D C H
+. E . D F .
+. . . F F .
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C F
+. E . D F F
+I . . . . .
+I I I H . .
+. . . H . .
+
+A B B C C .
+. E E D C F
+I E . D F F
+I I I . . .
+. . . H . .
+. . . H . .
+
+A B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . . H .
+I I I . H .
+
+A B B C C .
+. E E D C F
+. E . D F F
+. . . H . .
+I . . H . .
+I I I . . .
+
+A B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . . . H
+I I I . . H
+
+A B B C C .
+. E E D C F
+. E . D F F
+. . . . H .
+I . . . H .
+I I I . . .
+
+A B B C C .
+. E E D C F
+. E . D F F
+. . H . . .
+I . H . . .
+I I I . . .
+
+A B B C C .
+. E E D C F
+. E . D F F
+. . . . . H
+I . . . . H
+I I I . . .
+
+A B B C C .
+. E E D C F
+. E . D F F
+. H . . . .
+I H . . . .
+I I I . . .
+
+A B B C C .
+. E E D C F
+. E H D F F
+. . H . . .
+I . . . . .
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D . .
+I . . . . F
+I I I H F F
+. . . H . .
+
+A B B C C .
+. E E D C .
+I E . D . .
+I I I . . F
+. . . H F F
+. . . H . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . . H . F
+I . . H F F
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . H . . F
+I . H . F F
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. H . . . F
+I H . . F F
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E H D . .
+. . H . . F
+I . . . F F
+I I I . . .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D . .
+I . . . . .
+I I I H . F
+. . . H F F
+
+A B B C C .
+. E E D C .
+I E . D . .
+I I I . . .
+. . . H . F
+. . . H F F
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . . H . .
+I . . H . F
+I I I . F F
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . H . . .
+I . H . . F
+I I I . F F
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . . . H .
+I . . . H F
+I I I . F F
+
+A B B C C .
+. E E D C .
+. E . D . .
+. H . . . .
+I H . . . F
+I I I . F F
+
+A B B C C .
+. E E D C .
+. E H D . .
+. . H . . .
+I . . . . F
+I I I . F F
+
+A B B C C .
+. E E D C .
+. E . D H .
+. . . . H .
+I . . . . F
+I I I . F F
+
+A B B C C .
+. E E D C .
+. E . D . H
+. . . . . H
+I . . . . F
+I I I . F F
+
+A B B C C .
+. E E D C H
+. E . D . H
+. . . . . .
+I . . . . F
+I I I . F F
+
+A B B C C H
+. E E D C H
+. E . D . .
+. . . . . .
+I . . . . F
+I I I . F F
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D . F
+I . . . F F
+I I I . H .
+. . . . H .
+
+A B B C C .
+. E E D C .
+. E . D . F
+I . . H F F
+I I I H . .
+. . . . . .
+
+A B B C C .
+. E E D C .
+. E . D . F
+I . . . F F
+I I I . . H
+. . . . . H
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+I E . D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+I E . D . F
+I I I . F F
+. . H . . .
+. . H . . .
+
+A B B C C .
+. E E D C .
+I E . D . F
+I I I . F F
+. . . . H .
+. . . . H .
+
+A B B C C .
+. E E D C .
+I E . D . F
+I I I H F F
+. . . H . .
+. . . . . .
+
+A B B C C .
+. E E D C .
+I E . D . F
+I I I . F F
+. H . . . .
+. H . . . .
+
+A B B C C .
+. E E D C .
+I E . D . F
+I I I . F F
+. . . . . H
+. . . . . H
+
+A B B C C .
+. E E D C .
+I E . D . F
+I I I . F F
+H . . . . .
+H . . . . .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+. I . . H .
+. I I I H .
+
+A B B C C .
+. E E D C .
+. E . D . F
+. I . . F F
+. I I I H .
+. . . . H .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D . F
+. . . H F F
+. I . H . .
+. I I I . .
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . . H F F
+. . I H . .
+. . I I I .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+. I . . . H
+. I I I . H
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+. . I . . H
+. . I I I H
+
+A B B C C .
+. E E D C .
+. E . D . F
+. I . . F F
+. I I I . H
+. . . . . H
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . I . F F
+. . I I I H
+. . . . . H
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D F .
+. . H F F .
+I . H . . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . H . F .
+I . H F F .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. . H . . .
+I . H . F .
+I I I F F .
+
+A B B C C .
+. E E D C .
+. E . D . F
+. . H . F F
+. I H . . .
+. I I I . .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E . D F .
+. H . F F .
+I H . . . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. H . . F .
+I H . F F .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. H . F . .
+I H F F . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E . D . .
+. H . . . .
+I H . . F .
+I I I F F .
+
+father: 
+level: 2 
+A B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+child: 
+level: 3
+A B B C C .
+. E E D C .
+. E H D F .
+. . H F F .
+I . . . . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E H D . .
+. . H . F .
+I . . F F .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E H D . .
+. . H F . .
+I . F F . .
+I I I . . .
+
+A B B C C .
+. E E D C .
+. E H D . .
+. . H . . .
+I . . . F .
+I I I F F .
+
+A B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+. I . . . .
+. I I I . .
+
+A B B C C .
+. E E D C .
+. E H D . F
+I . H . F F
+I I I . . .
+. . . . . .
+
+A B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+. . I . . .
+. . I I I .
+
+A B B C C .
+. E E D C .
+. E H D . F
+. I H . F F
+. I I I . .
+. . . . . .
+
+A B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+. . . I . .
+. . . I I I
+
+A B B C C .
+. E E D C .
+. E H D . F
+. . H I F F
+. . . I I I
+. . . . . .
+
+father: 
+level: 3 
+B B . C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+B B . . C C
+A E E D . C
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+A . . D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+A . . D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+A . . D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+B B . C C .
+A . . D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+B B . C C .
+A E E . C .
+. E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+A E E . C .
+. E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+A E E . C .
+. E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+B B . C C .
+A E E . C .
+. E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+B B . C C .
+A E E D C .
+. E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+B B . C C .
+A E E D C F
+. E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+B B . C C .
+A E E D C .
+. E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+B B . C C .
+A E E D C .
+. E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+B B . C C .
+A E E D C .
+. E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+B B . C C .
+A E E D C .
+I E . D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+B B . C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+B B . C C .
+A E E D C .
+. E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+B B . C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+B B . C C .
+A E E D C .
+. E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+B B . C C .
+A E E D C .
+. E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+B B . C C .
+A E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B . C C
+A E E D . C
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . B B C C
+A E E D . C
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+A . . D . C
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+A . . D . C
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+A . . D . C
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B . C C
+A . . D . C
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B . C C
+A E E . D C
+. E . . D F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B D C C
+A E E D . C
+. E . . . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+A E E . . C
+. E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+A E E . . C
+. E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+A E E . . C
+. E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B . C C
+A E E . . C
+. E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B . C C
+A E E D . C
+. E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+. B B . C C
+A E E D . C
+. E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+. B B . C C
+A E E D . C
+. E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+. B B . C C
+A E E D . C
+. E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+. B B . C C
+A E E D . C
+I E . D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+. B B . C C
+A E E D . C
+. E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+. B B . C C
+A E E D . C
+. E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+. B B . C C
+A E E D . C
+. E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+. B B . C C
+A E E D . C
+. E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+. B B . C C
+A E E D . C
+. E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+. B B . C C
+A E E D . C
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A . . D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. A . D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . A D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+A B B D C .
+. E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+. E E D . F
+. E . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. E E D F .
+. E . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C F
+. E E D F F
+. E . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. E E D . .
+. E . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+A . . D C .
+. E E D . .
+. E . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+A . . D C .
+. E E D . F
+I E . . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+A . . D C .
+. E E D . F
+. E . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+A . . D C .
+. E E D . F
+. E . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+A . . D C .
+. E E D . F
+. E . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+A . . D C .
+. E E D . F
+. E H . F F
+I . H . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A . . D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. A . D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . A D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+A B B D C .
+E E . D . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . D . C .
+E E D . . F
+E . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+E E . D . F
+E . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+E E D . . F
+E . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+E E . . . F
+E . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+E E . . . F
+E D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+E E . D F .
+E . . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C F
+E E . D F F
+E . . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+E E . D . .
+E . . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+A . . D C .
+E E . D . .
+E . . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+A . . D C .
+E E . D . F
+E . . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+A . . D C .
+E E . D . F
+E . . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+A . . D C .
+E E . D . F
+E . . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+A . . D C .
+E E . D . F
+E . H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+A . . D C .
+E E . D . F
+E H . . F F
+I H . . . .
+I I I . . .
+
+. B B C C .
+A . . D C .
+E E H D . F
+E . H . F F
+I . . . . .
+I I I . . .
+
+. B B C C .
+A . H D C .
+E E H D . F
+E . . . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A . . D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. A . D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . A D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. A . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . A D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+A B B D C .
+. . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+A . . D C .
+. B B D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+A . . D C .
+B B . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+A . D . C .
+. . D . . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+. . . D . F
+. E E D F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+A D . . C .
+. D . . . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. . . D F .
+. E E F F .
+I E . H . .
+I I I H . .
+
+. B B C C .
+A . . D C F
+. . . D F F
+. E E . . .
+I E . H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. . . D . .
+. E E . . F
+I E . H F F
+I I I H . .
+
+. B B C C .
+A . . D C .
+. . . D . .
+. E E . . .
+I E . H . F
+I I I H F F
+
+. B B C C .
+A . . D C .
+. . . D . F
+. E E . F F
+I E . . H .
+I I I . H .
+
+. B B C C .
+A . . D C .
+. . . D . F
+. E E H F F
+I E . H . .
+I I I . . .
+
+. B B C C .
+A . . D C .
+. . . D . F
+. E E . F F
+I E . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+A . . D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. A . D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . A D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. A . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . A D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . F
+. A E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . F
+. . E E F F
+I A E H . .
+I I I H . .
+
+. . . C C .
+A B B D C .
+. . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+A . . D C .
+. B B D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+A . . D C .
+B B . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+A . . D C .
+. . . D . F
+B B E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+A . D . C .
+. . D . . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+A D . . C .
+. D . . . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+. D . . . F
+. D E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+D . . . . F
+D . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+. . . . . F
+. D E E F F
+I D E H . .
+I I I H . .
+
+. B B C C .
+A . . D C F
+. . . D F F
+. . E E . .
+I . E H . .
+I I I H . .
+
+. B B C C .
+A . . D C .
+. . . D . .
+. . E E . F
+I . E H F F
+I I I H . .
+
+. B B C C .
+A . . D C .
+. . . D . .
+. . E E . .
+I . E H . F
+I I I H F F
+
+. B B C C .
+A . . D C .
+. . . D . F
+. . E E F F
+I . E . H .
+I I I . H .
+
+. B B C C .
+A . . D C .
+. . . D . F
+. . E E F F
+I . E . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+A E E . C .
+. E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+A E E C C .
+. E . D C F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A . E E C .
+. . E D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E . C F
+. E . D F F
+. . . D . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . D . .
+. . . D . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . D . .
+. . . D . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+A E E . C .
+. E . D . F
+I . . D F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+A E E . C .
+I E . D . F
+I I I D F F
+. . . H . .
+. . . H . .
+
+. B B C C .
+A E E . C .
+. E . D . F
+. . . D F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+A E E . C .
+. E . D . F
+. . . D F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+A E E . C .
+. E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+A E E C C .
+. E D . C F
+. . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E D . F .
+. . D F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E . C F
+. E D . F F
+. . D . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E D . . .
+. . D . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E D . . .
+. . D . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+A E E . C .
+. E D . . F
+I . D . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+A E E . C .
+. E D . . F
+. . D . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+A E E . C .
+. E D . . F
+. . D H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+A E E . C .
+. E D . . F
+. . D . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+A E E . C .
+. E D H . F
+. . D H F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A E E . C .
+. E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+A E E C C .
+. E . . C F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+A . E E C .
+. . E . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+. E E . . F
+. E D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . F .
+. . D F F .
+I . D H . .
+I I I H . .
+
+. B B C C .
+A E E . C F
+. E . . F F
+. . D . . .
+I . D H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . . .
+. . D . . F
+I . D H F F
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . . .
+. . D . . .
+I . D H . F
+I I I H F F
+
+. B B C C .
+A E E . C .
+. E . . . F
+. . D . F F
+I . D . H .
+I I I . H .
+
+. B B C C .
+A E E . C .
+. E . . . F
+. . D H F F
+I . D H . .
+I I I . . .
+
+. B B C C .
+A E E . C .
+. E . . . F
+. . D . F F
+I . D . . H
+I I I . . H
+
+. B B C C .
+A E E . C .
+. E . H . F
+. . D H F F
+I . D . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A E E . C .
+. E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+A E E C C .
+. E . . C F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+A . E E C .
+. . E . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+. . E E . F
+. D E . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+A . . . C .
+. . . E E F
+. D . E F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . F .
+. D . F F .
+I D . H . .
+I I I H . .
+
+. B B C C .
+A E E . C F
+. E . . F F
+. D . . . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . . .
+. D . . . F
+I D . H F F
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . F . .
+. D F F . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . . .
+. D . . . .
+I D . H . F
+I I I H F F
+
+. B B C C .
+A E E F C .
+. E F F . .
+. D . . . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+A E E . C .
+. E . . . F
+. D . . F F
+I D . . H .
+I I I . H .
+
+. B B C C .
+A E E . C .
+. E . . . F
+. D . H F F
+I D . H . .
+I I I . . .
+
+. B B C C .
+A E E . C .
+. E . . . F
+. D . . F F
+I D . . . H
+I I I . . H
+
+. B B C C .
+A E E . C .
+. E . . . F
+. D H . F F
+I D H . . .
+I I I . . .
+
+. B B C C .
+A E E . C .
+. E . H . F
+. D . H F F
+I D . . . .
+I I I . . .
+
+. B B C C .
+A E E . C .
+. E H . . F
+. D H . F F
+I D . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D F .
+I . . F F .
+I I I H . .
+. . . H . .
+
+. B B C C .
+A E E D C .
+I E . D F .
+I I I F F .
+. . . H . .
+. . . H . .
+
+. B B C C .
+A E E D C .
+. E . D F .
+. . . F F .
+I . . . H .
+I I I . H .
+
+. B B C C .
+A E E D C .
+. E . D F .
+. . . F F .
+I . . . . H
+I I I . . H
+
+. B B C C .
+A E E D C .
+. E . D F .
+. . . F F H
+I . . . . H
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D F H
+. . . F F H
+I . . . . .
+I I I . . .
+
+. B B C C .
+A E E D C H
+. E . D F H
+. . . F F .
+I . . . . .
+I I I . . .
+
+. B B C C H
+A E E D C H
+. E . D F .
+. . . F F .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C F
+. E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C F
+. E . D F F
+I . . . . .
+I I I H . .
+. . . H . .
+
+. B B C C .
+A E E D C F
+I E . D F F
+I I I . . .
+. . . H . .
+. . . H . .
+
+. B B C C .
+A E E D C F
+. E . D F F
+. . . . . .
+I . . . H .
+I I I . H .
+
+. B B C C .
+A E E D C F
+. E . D F F
+. . . H . .
+I . . H . .
+I I I . . .
+
+. B B C C .
+A E E D C F
+. E . D F F
+. . . . . .
+I . . . . H
+I I I . . H
+
+. B B C C .
+A E E D C F
+. E . D F F
+. . . . H .
+I . . . H .
+I I I . . .
+
+. B B C C .
+A E E D C F
+. E . D F F
+. . H . . .
+I . H . . .
+I I I . . .
+
+. B B C C .
+A E E D C F
+. E . D F F
+. . . . . H
+I . . . . H
+I I I . . .
+
+. B B C C .
+A E E D C F
+. E . D F F
+. H . . . .
+I H . . . .
+I I I . . .
+
+. B B C C .
+A E E D C F
+. E H D F F
+. . H . . .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D . .
+I . . . . F
+I I I H F F
+. . . H . .
+
+. B B C C .
+A E E D C .
+I E . D . .
+I I I . . F
+. . . H F F
+. . . H . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . . H . F
+I . . H F F
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . H . . F
+I . H . F F
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. H . . . F
+I H . . F F
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E H D . .
+. . H . . F
+I . . . F F
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D . .
+I . . . . .
+I I I H . F
+. . . H F F
+
+. B B C C .
+A E E D C .
+I E . D . .
+I I I . . .
+. . . H . F
+. . . H F F
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . . H . .
+I . . H . F
+I I I . F F
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . H . . .
+I . H . . F
+I I I . F F
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . . . H .
+I . . . H F
+I I I . F F
+
+. B B C C .
+A E E D C .
+. E . D . .
+. H . . . .
+I H . . . F
+I I I . F F
+
+. B B C C .
+A E E D C .
+. E H D . .
+. . H . . .
+I . . . . F
+I I I . F F
+
+. B B C C .
+A E E D C .
+. E . D H .
+. . . . H .
+I . . . . F
+I I I . F F
+
+. B B C C .
+A E E D C .
+. E . D . H
+. . . . . H
+I . . . . F
+I I I . F F
+
+. B B C C .
+A E E D C H
+. E . D . H
+. . . . . .
+I . . . . F
+I I I . F F
+
+. B B C C H
+A E E D C H
+. E . D . .
+. . . . . .
+I . . . . F
+I I I . F F
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D . F
+I . . . F F
+I I I . H .
+. . . . H .
+
+. B B C C .
+A E E D C .
+. E . D . F
+I . . H F F
+I I I H . .
+. . . . . .
+
+. B B C C .
+A E E D C .
+. E . D . F
+I . . . F F
+I I I . . H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+I E . D . F
+I I I . F F
+. . . H . .
+. . . H . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+I E . D . F
+I I I . F F
+. . H . . .
+. . H . . .
+
+. B B C C .
+A E E D C .
+I E . D . F
+I I I . F F
+. . . . H .
+. . . . H .
+
+. B B C C .
+A E E D C .
+I E . D . F
+I I I H F F
+. . . H . .
+. . . . . .
+
+. B B C C .
+A E E D C .
+I E . D . F
+I I I . F F
+. H . . . .
+. H . . . .
+
+. B B C C .
+A E E D C .
+I E . D . F
+I I I . F F
+. . . . . H
+. . . . . H
+
+. B B C C .
+A E E D C .
+I E . D . F
+I I I . F F
+H . . . . .
+H . . . . .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+. I . . H .
+. I I I H .
+
+. B B C C .
+A E E D C .
+. E . D . F
+. I . . F F
+. I I I H .
+. . . . H .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D . F
+. . . H F F
+. I . H . .
+. I I I . .
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . . H F F
+. . I H . .
+. . I I I .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+. I . . . H
+. I I I . H
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . . . F F
+. . I . . H
+. . I I I H
+
+. B B C C .
+A E E D C .
+. E . D . F
+. I . . F F
+. I I I . H
+. . . . . H
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . I . F F
+. . I I I H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D F .
+. . H F F .
+I . H . . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . H . F .
+I . H F F .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. . H . . .
+I . H . F .
+I I I F F .
+
+. B B C C .
+A E E D C .
+. E . D . F
+. . H . F F
+. I H . . .
+. I I I . .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E . D F .
+. H . F F .
+I H . . . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. H . . F .
+I H . F F .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. H . F . .
+I H F F . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E . D . .
+. H . . . .
+I H . . F .
+I I I F F .
+
+father: 
+level: 3 
+. B B C C .
+A E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+A E E D C .
+. E H D F .
+. . H F F .
+I . . . . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E H D . .
+. . H . F .
+I . . F F .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E H D . .
+. . H F . .
+I . F F . .
+I I I . . .
+
+. B B C C .
+A E E D C .
+. E H D . .
+. . H . . .
+I . . . F .
+I I I F F .
+
+. B B C C .
+A E E D C .
+. E H D . F
+. . H . F F
+. I . . . .
+. I I I . .
+
+. B B C C .
+A E E D C .
+. E H D . F
+I . H . F F
+I I I . . .
+. . . . . .
+
+. B B C C .
+A E E D C .
+. E H D . F
+. . H . F F
+. . I . . .
+. . I I I .
+
+. B B C C .
+A E E D C .
+. E H D . F
+. I H . F F
+. I I I . .
+. . . . . .
+
+. B B C C .
+A E E D C .
+. E H D . F
+. . H . F F
+. . . I . .
+. . . I I I
+
+. B B C C .
+A E E D C .
+. E H D . F
+. . H I F F
+. . . I I I
+. . . . . .
+
+father: 
+level: 3 
+B B . C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+B B . . C C
+. E E D . C
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+A E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+A . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+A . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+A E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+A E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+A E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+A E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+A E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C F
+A E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+A E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+B B . C C .
+. E E D C .
+A E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+B B . C C .
+. E E D C .
+A E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+B B . C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+B B . C C .
+. E E D C .
+A E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+B B . C C .
+. E E D C .
+A E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+A E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+A E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B . C C
+. E E D . C
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . B B C C
+. E E D . C
+A E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+A E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+A . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+A . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B . C C
+. E E . D C
+A E . . D F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B D C C
+. E E D . C
+A E . . . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+A E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+A E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+A E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+A E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+A E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+A E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+. B B . C C
+. E E D . C
+A E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+. B B . C C
+. E E D . C
+A E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+. B B . C C
+. E E D . C
+A E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+. B B . C C
+. E E D . C
+A E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+A E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+. B B . C C
+. E E D . C
+A E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+A E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+A E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+A E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+A E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+A E E D . F
+. E . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+A E E D . F
+. E . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A E E D F .
+. E . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+A E E D F F
+. E . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A E E D . .
+. E . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+A E E D . .
+. E . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+A E E D . F
+I E . . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. . . D C .
+A E E D . F
+. E . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+A E E D . F
+. E . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+A E E D . F
+. E . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. . . D C .
+A E E D . F
+. E H . F F
+I . H . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+A . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+A . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+A . . D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+A B B D . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+A . D . . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+A . . D . F
+. E E D F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. D . . C .
+A D . . . F
+. E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A . . D F .
+. E E F F .
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+A . . D F F
+. E E . . .
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A . . D . .
+. E E . . F
+I E . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+A . . D . .
+. E E . . .
+I E . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+A . . D . F
+. E E . F F
+I E . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+A . . D . F
+. E E H F F
+I E . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+A . . D . F
+. E E . F F
+I E . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+A . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+A . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+A . . D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+A B B D . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+A . D . . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. D . . C .
+A D . . . F
+. . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+A D . . . F
+. D E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+A . . . . F
+. D E E F F
+I D E H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+A . . D F F
+. . E E . .
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+A . . D . .
+. . E E . F
+I . E H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+A . . D . .
+. . E E . .
+I . E H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+A . . D . F
+. . E E F F
+I . E . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+A . . D . F
+. . E E F F
+I . E . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+A E . D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+A E . D C F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+A . E D . F
+. . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+A E . D F F
+. . . D . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . D . .
+. . . D . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . D . .
+. . . D . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+A E . D . F
+I . . D F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E . C .
+A E . D . F
+. . . D F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+A E . D . F
+. . . D F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+A E D . . F
+. . D . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+A E D . C F
+. . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E D . F .
+. . D F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+A E D . F F
+. . D . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E D . . .
+. . D . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E D . . .
+. . D . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+A E D . . F
+I . D . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E . C .
+A E D . . F
+. . D . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+A E D . . F
+. . D H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+A E D . . F
+. . D . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+A E D H . F
+. . D H F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+A E . . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+A E . . C F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+A . E . . F
+. . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+A E E . . F
+. E D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . F .
+. . D F F .
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+A E . . F F
+. . D . . .
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . . .
+. . D . . F
+I . D H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . . .
+. . D . . .
+I . D H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+A E . . . F
+. . D . F F
+I . D . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+A E . . . F
+. . D H F F
+I . D H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+A E . . . F
+. . D . F F
+I . D . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+A E . H . F
+. . D H F F
+I . D . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+A E . . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+A E . . C F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+A . E . . F
+. D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+A . E E . F
+. D E . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+A . . E E F
+. D . E F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . F .
+. D . F F .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+A E . . F F
+. D . . . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . . .
+. D . . . F
+I D . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . F . .
+. D F F . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . . .
+. D . . . .
+I D . H . F
+I I I H F F
+
+. B B C C .
+. E E F C .
+A E F F . .
+. D . . . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+A E . . . F
+. D . . F F
+I D . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+A E . . . F
+. D . H F F
+I D . H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+A E . . . F
+. D . . F F
+I D . . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+A E . . . F
+. D H . F F
+I D H . . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+A E . H . F
+. D . H F F
+I D . . . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+A E H . . F
+. D H . F F
+I D . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D F .
+. . . F F .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D F .
+I . . F F .
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+A E . D F .
+. . . F F .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+A E . D F .
+. . . F F .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+A E . D F .
+. . . F F H
+I . . . . H
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D F H
+. . . F F H
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C H
+A E . D F H
+. . . F F .
+I . . . . .
+I I I . . .
+
+. B B C C H
+. E E D C H
+A E . D F .
+. . . F F .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C F
+A E . D F F
+. . . . . .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C F
+A E . D F F
+I . . . . .
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C F
+A E . D F F
+. . . . . .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C F
+A E . D F F
+. . . H . .
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+A E . D F F
+. . . . . .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C F
+A E . D F F
+. . . . H .
+I . . . H .
+I I I . . .
+
+. B B C C .
+. E E D C F
+A E . D F F
+. . H . . .
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+A E . D F F
+. . . . . H
+I . . . . H
+I I I . . .
+
+. B B C C .
+. E E D C F
+A E . D F F
+. H . . . .
+I H . . . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+A E H D F F
+. . H . . .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . .
+. . . . . F
+I . . H F F
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D . .
+I . . . . F
+I I I H F F
+. . . H . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . . H . F
+I . . H F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . H . . F
+I . H . F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. H . . . F
+I H . . F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E H D . .
+. . H . . F
+I . . . F F
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . .
+. . . . . .
+I . . H . F
+I I I H F F
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D . .
+I . . . . .
+I I I H . F
+. . . H F F
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . . H . .
+I . . H . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . H . . .
+I . H . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . . . H .
+I . . . H F
+I I I . F F
+
+. B B C C .
+. E E D C .
+A E . D . .
+. H . . . .
+I H . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+A E H D . .
+. . H . . .
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+A E . D H .
+. . . . H .
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+A E . D . H
+. . . . . H
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C H
+A E . D . H
+. . . . . .
+I . . . . F
+I I I . F F
+
+. B B C C H
+. E E D C H
+A E . D . .
+. . . . . .
+I . . . . F
+I I I . F F
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . F
+I . . . F F
+I I I H . .
+. . . H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D . F
+I . . . F F
+I I I . H .
+. . . . H .
+
+. B B C C .
+. E E D C .
+A E . D . F
+I . . H F F
+I I I H . .
+. . . . . .
+
+. B B C C .
+. E E D C .
+A E . D . F
+I . . . F F
+I I I . . H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . . H .
+I I I . H .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+. I . . H .
+. I I I H .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. I . . F F
+. I I I H .
+. . . . H .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . F
+. . . H F F
+I . . H . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D . F
+. . . H F F
+. I . H . .
+. I I I . .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . . H F F
+. . I H . .
+. . I I I .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+I . . . . H
+I I I . . H
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+. I . . . H
+. I I I . H
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . . . F F
+. . I . . H
+. . I I I H
+
+. B B C C .
+. E E D C .
+A E . D . F
+. I . . F F
+. I I I . H
+. . . . . H
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . I . F F
+. . I I I H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . F
+. . H . F F
+I . H . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D F .
+. . H F F .
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . H . F .
+I . H F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. . H . . .
+I . H . F .
+I I I F F .
+
+. B B C C .
+. E E D C .
+A E . D . F
+. . H . F F
+. I H . . .
+. I I I . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E . D . F
+. H . . F F
+I H . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E . D F .
+. H . F F .
+I H . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. H . . F .
+I H . F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. H . F . .
+I H F F . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E . D . .
+. H . . . .
+I H . . F .
+I I I F F .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+A E H D . F
+. . H . F F
+I . . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+A E H D F .
+. . H F F .
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E H D . .
+. . H . F .
+I . . F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E H D . .
+. . H F . .
+I . F F . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+A E H D . .
+. . H . . .
+I . . . F .
+I I I F F .
+
+. B B C C .
+. E E D C .
+A E H D . F
+. . H . F F
+. I . . . .
+. I I I . .
+
+. B B C C .
+. E E D C .
+A E H D . F
+I . H . F F
+I I I . . .
+. . . . . .
+
+. B B C C .
+. E E D C .
+A E H D . F
+. . H . F F
+. . I . . .
+. . I I I .
+
+. B B C C .
+. E E D C .
+A E H D . F
+. I H . F F
+. I I I . .
+. . . . . .
+
+. B B C C .
+. E E D C .
+A E H D . F
+. . H . F F
+. . . I . .
+. . . I I I
+
+. B B C C .
+. E E D C .
+A E H D . F
+. . H I F F
+. . . I I I
+. . . . . .
+
+father: 
+level: 3 
+B B . C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+B B . . C C
+. E E D . C
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+E E . D C .
+E . . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+. E E D . F
+A E . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+. . . D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+. . . D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . D . F
+A . . D F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E D . . F
+A . D . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . . . F
+A . D . F F
+I . D H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . . . F
+A D . . F F
+I D . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D F .
+A . . F F .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C F
+. E . D F F
+A . . . . .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+A . . . . F
+I . . H F F
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+A . . . . .
+I . . H . F
+I I I H F F
+
+B B . C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . . H .
+I I I . H .
+
+B B . C C .
+. E E D C .
+. E . D . F
+A . . H F F
+I . . H . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . . . H
+I I I . . H
+
+B B . C C .
+. E E D C .
+. E . D . F
+A . H . F F
+I . H . . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+A H . . F F
+I H . . . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E H D . F
+A . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B . C C
+. E E D . C
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . B B C C
+. E E D . C
+. E . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+E E . D . C
+E . . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+. E E D . F
+A E . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+. . . D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+. . . D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. B B . C C
+. E E . D C
+. E . . D F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B D C C
+. E E D . C
+. E . . . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . D . F
+A . . D F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E D . . F
+A . D . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . . . F
+A . D . F F
+I . D H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . . . F
+A D . . F F
+I D . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D F .
+A . . F F .
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+A . . . . F
+I . . H F F
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+A . . . . .
+I . . H . F
+I I I H F F
+
+. B B . C C
+. E E D . C
+. E . D . F
+A . . . F F
+I . . . H .
+I I I . H .
+
+. B B . C C
+. E E D . C
+. E . D . F
+A . . H F F
+I . . H . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+A . . . F F
+I . . . . H
+I I I . . H
+
+. B B . C C
+. E E D . C
+. E . D . F
+A . H . F F
+I . H . . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+A H . . F F
+I H . . . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E H D . F
+A . H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+E E . D C .
+E . . D . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+E E D . C .
+E . D . . F
+A . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . D . F
+A . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . D . . F
+A . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E D . . . F
+A D . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . . . F
+A . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . . . F
+A D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D F .
+A . . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C F
+E . . D F F
+A . . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+A . . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+A . . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+E E . D C .
+E . . D . F
+A . . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+E E . D C .
+E . . D . F
+A . . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+A . . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+E E . D C .
+E . . D . F
+A . H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+A H . . F F
+I H . . . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . H D . F
+A . H . F F
+I . . . . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E H . D . F
+A H . . F F
+I . . . . .
+I I I . . .
+
+. B B C C .
+E E H D C .
+E . H D . F
+A . . . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+. E E D . F
+A E . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+. E E D . F
+A E . . F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+. E E D . F
+A E . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. E E D . F
+A E . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D F .
+A E . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+. E E D F F
+A E . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+A E . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+A E . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+. E E D . F
+A E . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+. E E D . F
+A E . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+A E . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. . . D C .
+. E E D . F
+A E H . F F
+I . H . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+. . . D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+. . . D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+. . . D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+. B B D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+B B . D . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+. . D . . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. . . D . F
+A E E D F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. D . . C .
+. D . . . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+D . . . C .
+D . . . . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+D B B C C .
+D . . . C .
+. . . . . F
+A E E . F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D F .
+A E E F F .
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+. . . D F F
+A E E . . .
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . .
+A E E . . F
+I E . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . .
+A E E . . .
+I E . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+. . . D . F
+A E E . F F
+I E . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+. . . D . F
+A E E H F F
+I E . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+. . . D . F
+A E E . F F
+I E . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+. . . D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+. . . D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+. . . D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+. B B D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+B B . D . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+. . D . . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. D . . C .
+. D . . . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+D . . . C .
+D . . . . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. D . . . F
+A D E E F F
+I . E H . .
+I I I H . .
+
+D B B C C .
+D . . . C .
+. . . . . F
+A . E E F F
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. . . . . F
+A D E E F F
+I D E H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+. . . D F F
+A . E E . .
+I . E H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . .
+A . E E . F
+I . E H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . .
+A . E E . .
+I . E H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+. . . D . F
+A . E E F F
+I . E . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+. . . D . F
+A . E E F F
+I . E . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . D . F
+A . . D F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . D C F
+A . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E D . F
+A . . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . D F F
+A . . D . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+A . . D . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+A . . D . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E . D . F
+A . . D F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . D . F
+A . . D F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E D . . F
+A . D . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E D . C F
+A . D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . F .
+A . D F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E D . F F
+A . D . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . .
+A . D . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . .
+A . D . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E D . . F
+A . D . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E D . . F
+A . D H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+A . D . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+. E D H . F
+A . D H F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . . . F
+A . D . F F
+I . D H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . . C F
+A . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E . . F
+A . D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. E E . . F
+A E D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . F .
+A . D F F .
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . . F F
+A . D . . .
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+A . D . . F
+I . D H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+A . D . . .
+I . D H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E . . . F
+A . D . F F
+I . D . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . . . F
+A . D H F F
+I . D H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+A . D . F F
+I . D . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+. E . H . F
+A . D H F F
+I . D . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . . . F
+A D . . F F
+I D . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . . C F
+A D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E . . F
+A D . . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. . E E . F
+A D E . F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. . . E E F
+A D . E F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . F .
+A D . F F .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . . F F
+A D . . . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+A D . . . F
+I D . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . F . .
+A D F F . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+A D . . . .
+I D . H . F
+I I I H F F
+
+. B B C C .
+. E E F C .
+. E F F . .
+A D . . . .
+I D . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+A D . . F F
+I D . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . . . F
+A D . H F F
+I D . H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+A D . . F F
+I D . . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+. E . . . F
+A D H . F F
+I D H . . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E . H . F
+A D . H F F
+I D . . . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E H . . F
+A D H . F F
+I D . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D F .
+A . . F F .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+A . . F F .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D F .
+A . . F F .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E . D F .
+A . . F F H
+I . . . . H
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D F H
+A . . F F H
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C H
+. E . D F H
+A . . F F .
+I . . . . .
+I I I . . .
+
+. B B C C H
+. E E D C H
+. E . D F .
+A . . F F .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C F
+. E . D F F
+A . . . . .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C F
+. E . D F F
+A . . . . .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C F
+. E . D F F
+A . . H . .
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+A . . . . .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C F
+. E . D F F
+A . . . H .
+I . . . H .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+A . H . . .
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+A . . . . H
+I . . . . H
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+A H . . . .
+I H . . . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E H D F F
+A . H . . .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+A . . . . F
+I . . H F F
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+A . . H . F
+I . . H F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A . H . . F
+I . H . F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A H . . . F
+I H . . F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+A . H . . F
+I . . . F F
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+A . . . . .
+I . . H . F
+I I I H F F
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+A . . H . .
+I . . H . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+A . H . . .
+I . H . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+A . . . H .
+I . . . H F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+A H . . . .
+I H . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E H D . .
+A . H . . .
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D H .
+A . . . H .
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . H
+A . . . . H
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C H
+. E . D . H
+A . . . . .
+I . . . . F
+I I I . F F
+
+. B B C C H
+. E E D C H
+. E . D . .
+A . . . . .
+I . . . . F
+I I I . F F
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . . H .
+I I I . H .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+. I . . H .
+. I I I H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+A I . . F F
+. I I I H .
+. . . . H .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+A . . H F F
+I . . H . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+A . . H F F
+. I . H . .
+. I I I . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . . H F F
+. . I H . .
+. . I I I .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+I . . . . H
+I I I . . H
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+. I . . . H
+. I I I . H
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . . . F F
+. . I . . H
+. . I I I H
+
+. B B C C .
+. E E D C .
+. E . D . F
+A I . . F F
+. I I I . H
+. . . . . H
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . I . F F
+. . I I I H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+A . H . F F
+I . H . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+A . H F F .
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A . H . F .
+I . H F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A . H . . .
+I . H . F .
+I I I F F .
+
+. B B C C .
+. E E D C .
+. E . D . F
+A . H . F F
+. I H . . .
+. I I I . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+A H . . F F
+I H . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+A H . F F .
+I H . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A H . . F .
+I H . F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A H . F . .
+I H F F . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+A H . . . .
+I H . . F .
+I I I F F .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E H D . F
+A . H . F F
+I . . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E H D F .
+A . H F F .
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+A . H . F .
+I . . F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+A . H F . .
+I . F F . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+A . H . . .
+I . . . F .
+I I I F F .
+
+. B B C C .
+. E E D C .
+. E H D . F
+A . H . F F
+. I . . . .
+. I I I . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+A . H . F F
+. . I . . .
+. . I I I .
+
+. B B C C .
+. E E D C .
+. E H D . F
+A I H . F F
+. I I I . .
+. . . . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+A . H . F F
+. . . I . .
+. . . I I I
+
+. B B C C .
+. E E D C .
+. E H D . F
+A . H I F F
+. . . I I I
+. . . . . .
+
+father: 
+level: 3 
+B B . C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+B B . . C C
+. E E D . C
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+E E . D C .
+E . . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+E E . D . F
+E A . . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . D . F
+. A . D F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E D . . F
+. A D . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . . . F
+. A D . F F
+I . D H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D F .
+. A . F F .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C F
+. E . D F F
+. A . . . .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. A . . . F
+I . . H F F
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. A . . . .
+I . . H . F
+I I I H F F
+
+B B . C C .
+. E E D C .
+. E . D . F
+I A . . F F
+I I I H . .
+. . . H . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . . H .
+I I I . H .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. A . H F F
+I . . H . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . . . H
+I I I . . H
+
+B B . C C .
+. E E D C .
+. E . D . F
+. A H . F F
+I . H . . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E H D . F
+. A H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B . C C
+. E E D . C
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . B B C C
+. E E D . C
+. E . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+E E . D . C
+E . . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+E E . D . F
+E A . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . D C
+. E . . D F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B D C C
+. E E D . C
+. E . . . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . D . F
+. A . D F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E D . . F
+. A D . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . . . F
+. A D . F F
+I . D H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D F .
+. A . F F .
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. A . . . F
+I . . H F F
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. A . . . .
+I . . H . F
+I I I H F F
+
+. B B . C C
+. E E D . C
+. E . D . F
+I A . . F F
+I I I H . .
+. . . H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. A . . F F
+I . . . H .
+I I I . H .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. A . H F F
+I . . H . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. A . . F F
+I . . . . H
+I I I . . H
+
+. B B . C C
+. E E D . C
+. E . D . F
+. A H . F F
+I . H . . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E H D . F
+. A H . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+E E . D C .
+E . . D . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+E E . D C .
+E A . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E D . C .
+E . D . . F
+. A . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . D . F
+. A . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . D . . F
+. A D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . . . F
+. A D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D F .
+. A . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C F
+E . . D F F
+. A . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. A . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. A . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+E E . D C .
+E . . D . F
+I A . . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. A . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. A . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. A . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+E E . D C .
+E . . D . F
+. A H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . H D . F
+. A H . F F
+I . . . . .
+I I I . . .
+
+. B B C C .
+E E H D C .
+E . H D . F
+. A . . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+E E . D . F
+E A . . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+E E . D . F
+E A . . F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+E E . D . F
+E A . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+E E D . . F
+E A . . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E . D . F
+E A . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E D . . F
+E A D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E . . . F
+E A D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D F .
+E A . F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+E E . D F F
+E A . . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E A . . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E A . . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+E E . D . F
+E A . . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E A . H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E A . . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. . . D C .
+E E . D . F
+E A H . F F
+I . H . . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+E E H D . F
+E A H . F F
+I . . . . .
+I I I . . .
+
+. B B C C .
+. . H D C .
+E E H D . F
+E A . . F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . D . F
+. A . D F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . D C F
+. A . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E D . F
+. A . D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . D F F
+. A . D . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+. A . D . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+. A . D . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E . D . F
+I A . D F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. A . D F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. A . D F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E D . . F
+. A D . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E D . C F
+. A D . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . F .
+. A D F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E D . F F
+. A D . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . .
+. A D . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . .
+. A D . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E D . . F
+I A D . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. A D . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. A D H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. A D . F F
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+. E D H . F
+. A D H F F
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . . . F
+. A D . F F
+I . D H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . . C F
+. A D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E . . F
+. A D . F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . F .
+. A D F F .
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . . F F
+. A D . . .
+I . D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+. A D . . F
+I . D H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+. A D . . .
+I . D H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E . . . F
+. A D . F F
+I . D . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . . . F
+. A D H F F
+I . D H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+. A D . F F
+I . D . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+. E . H . F
+. A D H F F
+I . D . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D F .
+. A . F F .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+I A . F F .
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. A . F F .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. A . F F .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E . D F .
+. A . F F H
+I . . . . H
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D F H
+. A . F F H
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C H
+. E . D F H
+. A . F F .
+I . . . . .
+I I I . . .
+
+. B B C C H
+. E E D C H
+. E . D F .
+. A . F F .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C F
+. E . D F F
+. A . . . .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C F
+. E . D F F
+I A . . . .
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. A . . . .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. A . H . .
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. A . . . .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C F
+. E . D F F
+. A . . H .
+I . . . H .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. A H . . .
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. A . . . H
+I . . . . H
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E H D F F
+. A H . . .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+. A . . . F
+I . . H F F
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+I A . . . F
+I I I H F F
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A . H . F
+I . . H F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A H . . F
+I . H . F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. A H . . F
+I . . . F F
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+. A . . . .
+I . . H . F
+I I I H F F
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+I A . . . .
+I I I H . F
+. . . H F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A . H . .
+I . . H . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A H . . .
+I . H . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A . . H .
+I . . . H F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E H D . .
+. A H . . .
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D H .
+. A . . H .
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . H
+. A . . . H
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C H
+. E . D . H
+. A . . . .
+I . . . . F
+I I I . F F
+
+. B B C C H
+. E E D C H
+. E . D . .
+. A . . . .
+I . . . . F
+I I I . F F
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+I A . . F F
+I I I H . .
+. . . H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+I A . . F F
+I I I . H .
+. . . . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+I A . H F F
+I I I H . .
+. . . . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+I A . . F F
+I I I . . H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . . H .
+I I I . H .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+. I . . H .
+. I I I H .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. A . H F F
+I . . H . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+. A . H F F
+. I . H . .
+. I I I . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A . H F F
+. . I H . .
+. . I I I .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+I . . . . H
+I I I . . H
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+. I . . . H
+. I I I . H
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A . . F F
+. . I . . H
+. . I I I H
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A I . F F
+. . I I I H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. A H . F F
+I . H . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+. A H F F .
+I . H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A H . F .
+I . H F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. A H . . .
+I . H . F .
+I I I F F .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. A H . F F
+. I H . . .
+. I I I . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E H D . F
+. A H . F F
+I . . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E H D F .
+. A H F F .
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. A H . F .
+I . . F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. A H F . .
+I . F F . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. A H . . .
+I . . . F .
+I I I F F .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. A H . F F
+. I . . . .
+. I I I . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+I A H . F F
+I I I . . .
+. . . . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. A H . F F
+. . I . . .
+. . I I I .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. A H . F F
+. . . I . .
+. . . I I I
+
+. B B C C .
+. E E D C .
+. E H D . F
+. A H I F F
+. . . I I I
+. . . . . .
+
+father: 
+level: 3 
+B B . C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+B B . . C C
+. E E D . C
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+E E . D C .
+E . . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+. E E D . F
+. E A . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+E E . D . F
+E . A . F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . D . F
+. . A D F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D F .
+. . A F F .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C F
+. E . D F F
+. . A . . .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. . A . . F
+I . . H F F
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. . A . . .
+I . . H . F
+I I I H F F
+
+B B . C C .
+. E E D C .
+. E . D . F
+I . A . F F
+I I I H . .
+. . . H . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . . H .
+I I I . H .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . A H F F
+I . . H . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B . C C
+. E E D . C
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . B B C C
+. E E D . C
+. E . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+E E . D . C
+E . . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+. E E D . F
+. E A . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+E E . D . F
+E . A . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . D C
+. E . . D F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B D C C
+. E E D . C
+. E . . . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . D . F
+. . A D F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D F .
+. . A F F .
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. . A . . F
+I . . H F F
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. . A . . .
+I . . H . F
+I I I H F F
+
+. B B . C C
+. E E D . C
+. E . D . F
+I . A . F F
+I I I H . .
+. . . H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . A . F F
+I . . . H .
+I I I . H .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . A H F F
+I . . H . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . A . F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+E E . D C .
+E . . D . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+E E D . C .
+E . D . . F
+. . A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . D . F
+. . A D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D F .
+. . A F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C F
+E . . D F F
+. . A . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. . A . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. . A . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+E E . D C .
+E . . D . F
+I . A . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . A . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . A H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . A . F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+. E E D . F
+. E A . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+. E E D . F
+. E A . F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+. E E D . F
+. E A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. E E D . F
+. E A D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D F .
+. E A F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+. E E D F F
+. E A . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+. E A . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+. E A . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+. E E D . F
+I E A . F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E A . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E A H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E A . F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+E E . D . F
+E . A . F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+E E . D . F
+E . A . F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+E E . D . F
+E . A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+E E D . . F
+E . A . F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E . D . F
+E . A D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D F .
+E . A F F .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+E E . D F F
+E . A . . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E . A . . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E . A . . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . A . F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . A H F F
+I . . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . A . F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . D . F
+. . A D F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . D C F
+. . A D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E D . F
+. . A D F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . D F F
+. . A D . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+. . A D . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+. . A D . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E . D . F
+I . A D F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. . A D F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. . A D F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D F .
+. . A F F .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+I . A F F .
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . A F F .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . A F F .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . A F F H
+I . . . . H
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D F H
+. . A F F H
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C H
+. E . D F H
+. . A F F .
+I . . . . .
+I I I . . .
+
+. B B C C H
+. E E D C H
+. E . D F .
+. . A F F .
+I . . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C F
+. E . D F F
+. . A . . .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C F
+. E . D F F
+I . A . . .
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . A . . .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . A H . .
+I . . H . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . A . . .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . A . H .
+I . . . H .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . A . . H
+I . . . . H
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+. . A . . F
+I . . H F F
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+I . A . . F
+I I I H F F
+. . . H . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . A H . F
+I . . H F F
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+. . A . . .
+I . . H . F
+I I I H F F
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+I . A . . .
+I I I H . F
+. . . H F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . A H . .
+I . . H . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . A . H .
+I . . . H F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D H .
+. . A . H .
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . H
+. . A . . H
+I . . . . F
+I I I . F F
+
+. B B C C .
+. E E D C H
+. E . D . H
+. . A . . .
+I . . . . F
+I I I . F F
+
+. B B C C H
+. E E D C H
+. E . D . .
+. . A . . .
+I . . . . F
+I I I . F F
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+I . A . F F
+I I I H . .
+. . . H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+I . A . F F
+I I I . H .
+. . . . H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+I . A H F F
+I I I H . .
+. . . . . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+I . A . F F
+I I I . . H
+. . . . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . . H .
+I I I . H .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+. I . . H .
+. I I I H .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. I A . F F
+. I I I H .
+. . . . H .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. . A H F F
+I . . H . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+. . A H F F
+. I . H . .
+. I I I . .
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . A H F F
+. . I H . .
+. . I I I .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+I . . . . H
+I I I . . H
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+. I . . . H
+. I I I . H
+
+. B B C C .
+. E E D C .
+. E . D . F
+. . A . F F
+. . I . . H
+. . I I I H
+
+. B B C C .
+. E E D C .
+. E . D . F
+. I A . F F
+. I I I . H
+. . . . . H
+
+father: 
+level: 3 
+B B . C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+B B . . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+B B . C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I A . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I A . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I A . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I A . H . .
+I I I H . .
+
+B B . C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I A D H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I A . H . .
+I I I H . .
+
+B B . C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I A . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. . . . . F
+I A . H F F
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. . . . . .
+I A . H . F
+I I I H F F
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . . H .
+I I I . H .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . . H F F
+I A . H . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . . . H
+I I I . . H
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . H . F F
+I A H . . .
+I I I . . .
+
+B B . C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I A . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. . B B C C
+. E E D . C
+. E . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+E E . D . C
+E . . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+. E E D . F
+. E . . F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+E E . D . F
+E . . . F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+. E E . D C
+. E . . D F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B D C C
+. E E D . C
+. E . . . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . D . F
+. . . D F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E D . . F
+. . D . F F
+I A . H . .
+I I I H . .
+
+. B B . C C
+. E E . . C
+. E . . . F
+. . D . F F
+I A D H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D F .
+. . . F F .
+I A . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. . . . . F
+I A . H F F
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. . . . . .
+I A . H . F
+I I I H F F
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I A . . H .
+I I I . H .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . H F F
+I A . H . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . . F F
+I A . . . H
+I I I . . H
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . H . F F
+I A H . . .
+I I I . . .
+
+. B B . C C
+. E E D . C
+. E H D . F
+. . H . F F
+I A . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+E E D . C .
+E . D . . F
+. . . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . D . F
+. . . D F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . D . . F
+. . D . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E D . . . F
+. D . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . . . F
+. . D . F F
+I A D H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D F .
+. . . F F .
+I A . H . .
+I I I H . .
+
+. B B C C .
+E E . D C F
+E . . D F F
+. . . . . .
+I A . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. . . . . F
+I A . H F F
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. . . . . .
+I A . H . F
+I I I H F F
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I A . . H .
+I I I . H .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . H F F
+I A . H . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . . F F
+I A . . . H
+I I I . . H
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . H . F F
+I A H . . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E . H D . F
+. . H . F F
+I A . . . .
+I I I . . .
+
+. B B C C .
+E E . D C .
+E H . D . F
+. H . . F F
+I A . . . .
+I I I . . .
+
+. B B C C .
+E E H D C .
+E . H D . F
+. . . . F F
+I A . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+. E E D . F
+. E . . F F
+I A . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+. E E D . F
+. E . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. E E D . F
+. E . D F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D F .
+. E . F F .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+. E E D F F
+. E . . . .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+. E . . . F
+I A . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+. E . . . .
+I A . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I A . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . H F F
+I A . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . . F F
+I A . . . H
+I I I . . H
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E H . F F
+I A H . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+E E . D . F
+E . . . F F
+I A . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+E E . D . F
+E . . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+E E D . . F
+E . . . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E . D . F
+E . . D F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E D . . F
+E . D . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E . . . F
+E . D . F F
+I A D H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D F .
+E . . F F .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+E E . D F F
+E . . . . .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E . . . . F
+I A . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E . . . . .
+I A . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I A . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . H F F
+I A . H . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . . F F
+I A . . . H
+I I I . . H
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . H . F F
+I A H . . .
+I I I . . .
+
+. B B C C .
+. . . D C .
+E E H D . F
+E . H . F F
+I A . . . .
+I I I . . .
+
+. B B C C .
+. . H D C .
+E E H D . F
+E . . . F F
+I A . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . D C F
+. . . D F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E D . F
+. . . D F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . D F F
+. . . D . .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+. . . D . F
+I A . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . D . .
+. . . D . .
+I A . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I A . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . D . F
+. . . D F F
+I A . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E D . C F
+. . D . F F
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . F .
+. . D F F .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E D . F F
+. . D . . .
+I A . H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . .
+. . D . . F
+I A . H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E D . . .
+. . D . . .
+I A . H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I A . . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. . D H F F
+I A . H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E D . . F
+. . D . F F
+I A . . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+. E D H . F
+. . D H F F
+I A . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I A D H . .
+I I I H . .
+
+child: 
+level: 4
+. B B . . .
+. E E C C .
+. E . . C F
+. . D . F F
+I A D H . .
+I I I H . .
+
+. B B C C .
+. . E E C .
+. . E . . F
+. . D . F F
+I A D H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+. E E . . F
+. E D . F F
+I A D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . F .
+. . D F F .
+I A D H . .
+I I I H . .
+
+. B B C C .
+. E E . C F
+. E . . F F
+. . D . . .
+I A D H . .
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+. . D . . F
+I A D H F F
+I I I H . .
+
+. B B C C .
+. E E . C .
+. E . . . .
+. . D . . .
+I A D H . F
+I I I H F F
+
+. B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I A D . H .
+I I I . H .
+
+. B B C C .
+. E E . C .
+. E . . . F
+. . D H F F
+I A D H . .
+I I I . . .
+
+. B B C C .
+. E E . C .
+. E . . . F
+. . D . F F
+I A D . . H
+I I I . . H
+
+. B B C C .
+. E E . C .
+. E . H . F
+. . D H F F
+I A D . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I A . . H .
+I I I . H .
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . . F F .
+I A . . . H
+I I I . . H
+
+. B B C C .
+. E E D C .
+. E . D F .
+. . . F F H
+I A . . . H
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D F H
+. . . F F H
+I A . . . .
+I I I . . .
+
+. B B C C .
+. E E D C H
+. E . D F H
+. . . F F .
+I A . . . .
+I I I . . .
+
+. B B C C H
+. E E D C H
+. E . D F .
+. . . F F .
+I A . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I A . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I A . . H .
+I I I . H .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . H . .
+I A . H . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I A . . . H
+I I I . . H
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . H .
+I A . . H .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . H . . .
+I A H . . .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . H
+I A . . . H
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E H D F F
+. . H . . .
+I A . . . .
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+. . . . . F
+I A . H F F
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+. . . H . F
+I A . H F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . H . . F
+I A H . F F
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. . H . . F
+I A . . F F
+I I I . . .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . .
+. . . . . .
+I A . H . F
+I I I H F F
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D . .
+. . . H . .
+I A . H . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . H . . .
+I A H . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . . . H .
+I A . . H F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E H D . .
+. . H . . .
+I A . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D H .
+. . . . H .
+I A . . . F
+I I I . F F
+
+. B B C C .
+. E E D C .
+. E . D . H
+. . . . . H
+I A . . . F
+I I I . F F
+
+. B B C C .
+. E E D C H
+. E . D . H
+. . . . . .
+I A . . . F
+I I I . F F
+
+. B B C C H
+. E E D C H
+. E . D . .
+. . . . . .
+I A . . . F
+I I I . F F
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . . H .
+I I I . H .
+
+child: 
+level: 4
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. . . H F F
+I A . H . .
+I I I . . .
+
+child: 
+level: 4
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I A . . . H
+I I I . . H
+
+child: 
+level: 4
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E . D . F
+. . H . F F
+I A H . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E . D F .
+. . H F F .
+I A H . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . H . F .
+I A H F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E . D . .
+. . H . . .
+I A H . F .
+I I I F F .
+
+father: 
+level: 3 
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I A . . . .
+I I I . . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . A . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . A . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . . A .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H A F F
+I . . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I A . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . . . A
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . A .
+
+. B B C C .
+. E E D C .
+. E H D . F
+. . H . F F
+I . . . . .
+I I I . . A
+
+. B B C C .
+. E E D C .
+. E H D F .
+. . H F F .
+I A . . . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. . H . F .
+I A . F F .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. . H F . .
+I A F F . .
+I I I . . .
+
+. B B C C .
+. E E D C .
+. E H D . .
+. . H . . .
+I A . . F .
+I I I F F .
+
+father: 
+level: 3 
+B B . C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+B B . . C C
+. E E D . C
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+E E . D C .
+E . . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+. E E D . F
+. E . A F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+E E . D . F
+E . . A F F
+I . . H . .
+I I I H . .
+
+B B . C C .
+. . . D C .
+. . . D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+B B . C C .
+. E E D C F
+. E . D F F
+. . . A . .
+I . . H . .
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. . . A . F
+I . . H F F
+I I I H . .
+
+B B . C C .
+. E E D C .
+. E . D . .
+. . . A . .
+I . . H . F
+I I I H F F
+
+B B . C C .
+. E E D C .
+. E . D . F
+I . . A F F
+I I I H . .
+. . . H . .
+
+B B . C C .
+. E E D C .
+I E . D . F
+I I I A F F
+. . . H . .
+. . . H . .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . . H .
+I I I . H .
+
+B B . C C .
+. E E D C .
+. E . D . F
+. . . A F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B . C C
+. E E D . C
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . B B C C
+. E E D . C
+. E . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+E E . D . C
+E . . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+. E E D . F
+. E . A F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+E E . D . F
+E . . A F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. . . D . C
+. . . D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. B B . C C
+. E E . D C
+. E . . D F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B D C C
+. E E D . C
+. E . . . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. . . A . F
+I . . H F F
+I I I H . .
+
+. B B . C C
+. E E D . C
+. E . D . .
+. . . A . .
+I . . H . F
+I I I H F F
+
+. B B . C C
+. E E D . C
+. E . D . F
+I . . A F F
+I I I H . .
+. . . H . .
+
+. B B . C C
+. E E D . C
+I E . D . F
+I I I A F F
+. . . H . .
+. . . H . .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . A F F
+I . . . H .
+I I I . H .
+
+. B B . C C
+. E E D . C
+. E . D . F
+. . . A F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+E E . D C .
+E . . D . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+E E D . C .
+E . D . . F
+. . . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . D . . F
+. . D A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E D . . . F
+. D . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . . . F
+. . D A F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+E E . . C .
+E . . . . F
+. D . A F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+E E . D C F
+E . . D F F
+. . . A . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. . . A . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+E E . D C .
+E . . D . .
+. . . A . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+E E . D C .
+E . . D . F
+I . . A F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . A F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+E E . D C .
+E . . D . F
+. . . A F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+. E E D . F
+. E . A F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+. E E D . F
+. E . A F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+. E E D . F
+. E . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+. E E D F F
+. E . A . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+. E . A . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+. E E D . .
+. E . A . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+. E E D . F
+I E . A F F
+I I I H . .
+. . . H . .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . A F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+. E E D . F
+. E . A F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+E E . D . F
+E . . A F F
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+E E . D . F
+E . . A F F
+I . . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+E E . D . F
+E . . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+E E D . . F
+E . . A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E D . . F
+E . D A F F
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E . . . F
+E . D A F F
+I . D H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+E E . . . F
+E D . A F F
+I D . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+E E . D F F
+E . . A . .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E . . A . F
+I . . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+E E . D . .
+E . . A . .
+I . . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . A F F
+I . . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+E E . D . F
+E . . A F F
+I . . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. . . D C .
+. . . D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+child: 
+level: 4
+. . . C C .
+. B B D C .
+. . . D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+B B . D C .
+. . . D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+. B B D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. . . C C .
+. . . D C .
+B B . D . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . D . C .
+. . D . . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. D . . C .
+. D . . . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+D . . . C .
+D . . . . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+D B B C C .
+D . . . C .
+. . . . . F
+. E E A F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . . C .
+D . . . . F
+D E E A F F
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C F
+. . . D F F
+. E E A . .
+I E . H . .
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . .
+. E E A . F
+I E . H F F
+I I I H . .
+
+. B B C C .
+. . . D C .
+. . . D . .
+. E E A . .
+I E . H . F
+I I I H F F
+
+. B B C C .
+. . . D C .
+. . . D . F
+. E E A F F
+I E . . H .
+I I I . H .
+
+. B B C C .
+. . . D C .
+. . . D . F
+. E E A F F
+I E . . . H
+I I I . . H
+
+father: 
+level: 3 
+. B B C C .
+. E E D C F
+. E . D F F
+. . . A . .
+I . . H . .
+I I I H . .
+
+child: 
+level: 4
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . A .
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . A
+I . . H . .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . H A .
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . H . A
+I I I H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . H . .
+I I I H A .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . . . .
+I . . H . .
+I I I H . A
+
+. B B C C .
+. E E D C F
+. E . D F F
+I . . A . .
+I I I H . .
+. . . H . .
+
+. B B C C .
+. E E D C F
+I E . D F F
+I I I A . .
+. . . H . .
+. . . H . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . A . .
+I . . . H .
+I I I . H .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . A . .
+I . . . . H
+I I I . . H
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . A H .
+I . . . H .
+I I I . . .
+
+. B B C C .
+. E E D C F
+. E . D F F
+. . . A . H
+I . . . . H
+I I I . . .
+
+3
+A (0,0) (3,3)
+F (2,4) (1,4)
+A (3,3) (3,5)

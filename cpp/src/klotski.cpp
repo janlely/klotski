@@ -21,16 +21,6 @@ Klotski::Klotski(int nr, int nc)
     this->names2[0] = '.';
 }
 
-// void Klotski::setDestX(int x)
-// {
-//     this->destX = x;
-// }
-
-// void Klotski::setDestY(int y)
-// {
-//     this->destY = y;
-// }
-
 void Klotski::setTarget(std::string name)
 {
     this->target = this->names.find(name)->second;
@@ -93,10 +83,10 @@ void Klotski::updateSituation(std::string name)
 
 void Klotski::klotski()
 {
-    std::queue<Situation> queue = std::queue<Situation>();
+    std::queue<std::pair<Situation, int>> queue = std::queue<std::pair<Situation, int>>();
     std::set<Situation> seen = std::set<Situation>();
     std::map<Situation, std::pair<Situation, char>> out;
-    queue.push(this->start);
+    queue.push(std::make_pair(this->start, 1));
     seen.insert(this->start);
     std::optional<Situation> res = bfs1(queue, seen, out);
     if (res.has_value()) {
@@ -121,23 +111,25 @@ std::vector<std::pair<char, std::pair<Situation, Situation>>> trackResult(const 
     return steps;
 }
 
-std::optional<Situation> Klotski::bfs1(std::queue<Situation> &queue, std::set<Situation> &seen, std::map<Situation, std::pair<Situation, char>> &out)
+std::optional<Situation> Klotski::bfs1(std::queue<std::pair<Situation,int>> &queue, std::set<Situation> &seen, std::map<Situation, std::pair<Situation, char>> &out)
 {
-    if (queue.empty())
-    {
-        return std::nullopt;
-    }
-    Situation curSit = queue.front();
-    queue.pop();
-    std::vector<std::pair<Situation, char>> validMoves = findValidMoves(curSit, seen);
-    for (auto sit : validMoves) {
-        out[sit.first] = std::make_pair(curSit, sit.second);
-        queue.push(sit.first);
-        if (sit.second == this->target && isSuccess(sit.first)) {
-            return std::make_optional(sit.first);
+
+    while (!queue.empty()) {
+        auto curSit = queue.front();
+        std::cout << "level: " << curSit.second <<std::endl;
+        queue.pop();
+        std::vector<std::pair<Situation, char>> validMoves = findValidMoves(curSit.first, seen);
+        for (auto sit : validMoves)
+        {
+            out[sit.first] = std::make_pair(curSit.first, sit.second);
+            queue.push(std::make_pair(sit.first, curSit.second + 1));
+            if (sit.second == this->target && isSuccess(sit.first))
+            {
+                return std::make_optional(sit.first);
+            }
         }
     }
-    return bfs1(queue, seen, out);
+    return std::nullopt;
 }
 
 bool Klotski::isSuccess(const Situation &sit)
@@ -173,67 +165,71 @@ void Klotski::searchValidMovement(std::set<Situation> &seen, const Situation &si
 
 void Klotski::bfs2(std::set<Situation> &seen, std::queue<Situation> &q, std::vector<std::pair<Situation, char>> &result, char name)
 {
-    if (q.empty()) {
-        return;
-    }
-    std::vector<std::pair<int, int>> idxs_l = std::vector<std::pair<int, int>>();
-    std::vector<std::pair<int, int>> idxs_r = std::vector<std::pair<int, int>>();
-    std::vector<std::pair<int, int>> idxs_u = std::vector<std::pair<int, int>>();
-    std::vector<std::pair<int, int>> idxs_d = std::vector<std::pair<int, int>>();
-    Situation &sit = q.front();
-    q.pop();
-    for (int i = 0; i < sit.m_size; i++)
-    {
-        if (sit.m_sit[i] == name)
-        {
-            idxs_l.push_back(moveLeft(i, this->nc));
-            idxs_r.push_back(moveRight(i, this->nc));
-            idxs_u.push_back(moveUp(i, this->nc));
-            idxs_d.push_back(moveDown(i, this->nc));
-        }
-    }
+    while (!q.empty()) {
 
-    auto f = [this, sit, &seen, &q, name, &result](std::vector<std::pair<int, int>> idxs)
-    {
-        if (isInBound(idxs, this->nr, this->nc) && isNoBarrier(idxs, name, sit, this->nc))
+        std::vector<std::pair<int, int>> idxs_l = std::vector<std::pair<int, int>>();
+        std::vector<std::pair<int, int>> idxs_r = std::vector<std::pair<int, int>>();
+        std::vector<std::pair<int, int>> idxs_u = std::vector<std::pair<int, int>>();
+        std::vector<std::pair<int, int>> idxs_d = std::vector<std::pair<int, int>>();
+        Situation &sit = q.front();
+        q.pop();
+        for (int i = 0; i < sit.m_size; i++)
         {
-            Situation newSit = sit.clone();
-            for (int i = 0; i < newSit.m_size; i++)
+            if (sit.m_sit[i] == name)
             {
-                if (newSit.m_sit[i] == name)
+                idxs_l.push_back(moveLeft(i, this->nc));
+                idxs_r.push_back(moveRight(i, this->nc));
+                idxs_u.push_back(moveUp(i, this->nc));
+                idxs_d.push_back(moveDown(i, this->nc));
+            }
+        }
+
+        auto f = [this, sit, &seen, &q, name, &result](std::vector<std::pair<int, int>> idxs)
+        {
+            if (isInBound(idxs, this->nr, this->nc) && isNoBarrier(idxs, name, sit, this->nc))
+            {
+                Situation newSit = sit.clone();
+                for (int i = 0; i < newSit.m_size; i++)
                 {
-                    newSit.m_sit[i] = 0;
+                    if (newSit.m_sit[i] == name)
+                    {
+                        newSit.m_sit[i] = 0;
+                    }
+                }
+                for (auto pair : idxs)
+                {
+                    int idx = pair.first * this->nc + pair.second;
+                    newSit.m_sit[idx] = name;
+                }
+                if (seen.count(newSit) == 0)
+                {
+                    q.push(newSit);
+                    seen.insert(newSit);
+                    result.push_back(std::make_pair(newSit, name));
+                }
+                else
+                {
+                    newSit.destroy();
                 }
             }
-            for (auto pair : idxs)
-            {
-                int idx = pair.first * this->nc + pair.second;
-                newSit.m_sit[idx] = name;
-            }
-            if (seen.count(newSit) == 0)
-            {
-                q.push(newSit);
-                seen.insert(newSit);
-                result.push_back(std::make_pair(newSit, name));
-            }else {
-                newSit.destroy();
-            }
-        }
-    };
-    f(idxs_l);
-    f(idxs_r);
-    f(idxs_u);
-    f(idxs_d);
-    bfs2(seen, q, result, name);
+        };
+        f(idxs_l);
+        f(idxs_r);
+        f(idxs_u);
+        f(idxs_d);
+    }
 }
 
-void Klotski::printSituation(const Situation &sit) {
+void Klotski::printSituation(const Situation &sit)
+{
 
-    for(int i = 0; i < sit.m_size; i ++) {
-        std::cout<<this->names2.find(sit.m_sit[i])->second;
-        if ((i+1) % this->nc == 0) {
+    for (int i = 0; i < sit.m_size; i++)
+    {
+        std::cout << this->names2.find(sit.m_sit[i])->second;
+        if ((i + 1) % this->nc == 0)
+        {
             std::cout << std::endl;
         }
     }
-    std::cout<<std::endl;
+    std::cout << std::endl;
 }

@@ -1,0 +1,8 @@
+5 4
+Z C C Y
+Z C C Y
+M G G H
+M O P H
+U . . K
+C
+3 1

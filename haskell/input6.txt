@@ -1,0 +1,9 @@
+6 6
+A B B C C .
+. E E D C .
+. E . D . F
+. . . . F F
+I . . H . .
+I I I H . .
+A
+3 5
